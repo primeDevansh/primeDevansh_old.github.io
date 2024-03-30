@@ -13,8 +13,7 @@
 
 ## Introduction
 
-Welcome to my portfolio website! Here, you can learn more about me and explore some of the projects I've worked on.
-
+A test run of my portfolio website.
 ---
 
 ## About Me
