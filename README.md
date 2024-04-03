@@ -1,42 +1,77 @@
-# My Portfolio
+# My Portfolio & Blog
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [About Me](#about-me)
-- [Projects](#projects)
-- [Contact](#contact)
-
----
-
-## Introduction
-
-A test run of my portfolio website.
----
+Welcome to my portfolio and blog! Below, you'll find information about me and my work.
 
 ## About Me
 
-I'm a passionate developer with a love for creating innovative solutions to complex problems. My expertise lies in [insert your areas of expertise here].
+I'm a passionate developer who loves creating beautiful and functional websites and applications.
 
----
+## Portfolio
 
-## Projects
+### Projects
 
-### Project 1
+- Project 1: [Project Name 1](#)
+- Project 2: [Project Name 2](#)
+- Project 3: [Project Name 3](#)
 
-This is a description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+<details id="more-projects">
+  <summary>View More Projects</summary>
 
-### Project 2
+  - Project 4: [Project Name 4](#)
+  - Project 5: [Project Name 5](#)
+</details>
 
-This is a description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+## Blog
 
-### Project 3
+### Latest Posts
 
-This is a description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+- [Post Title 1](#)
+- [Post Title 2](#)
+- [Post Title 3](#)
 
----
+<details id="more-posts">
+  <summary>View More Posts</summary>
 
-## Contact
+  - [Post Title 4](#)
+  - [Post Title 5](#)
+</details>
 
-You can reach me via email at [your@email.com](mailto:your@email.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+<script>
+  // JavaScript for animations and cool drop-downs
+  
+  // Function to toggle visibility of the "More Projects" section
+  function toggleProjects() {
+    var moreProjects = document.getElementById("more-projects");
+    moreProjects.classList.toggle("show");
+  }
 
+  // Function to toggle visibility of the "More Posts" section
+  function togglePosts() {
+    var morePosts = document.getElementById("more-posts");
+    morePosts.classList.toggle("show");
+  }
+</script>
+
+<style>
+  /* Style for drop-down sections */
+  details {
+    margin-bottom: 10px;
+  }
+
+  /* Style for drop-down summary */
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Style for drop-down content */
+  details > div {
+    display: none;
+    padding-left: 20px;
+  }
+
+  /* Show drop-down content when summary is clicked */
+  details[open] > div {
+    display: block;
+  }
+</style>
