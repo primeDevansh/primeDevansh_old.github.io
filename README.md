@@ -36,20 +36,8 @@ I'm a passionate developer who loves creating beautiful and functional websites 
   - [Post Title 5](#)
 </details>
 
-<script>
-  // JavaScript for animations and cool drop-downs
-  
-  // Function to toggle visibility of the "More Projects" section
-  function toggleProjects() {
-    var moreProjects = document.getElementById("more-projects");
-    moreProjects.classList.toggle("show");
-  }
+<script rel = "script.js">
 
-  // Function to toggle visibility of the "More Posts" section
-  function togglePosts() {
-    var morePosts = document.getElementById("more-posts");
-    morePosts.classList.toggle("show");
-  }
 </script>
 
 <style>
