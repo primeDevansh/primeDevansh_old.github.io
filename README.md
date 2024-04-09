@@ -36,7 +36,7 @@ I'm a passionate developer who loves creating beautiful and functional websites 
   - [Post Title 5](#)
 </details>
 
-<script rel = "script.js">
+<script src = "script.js">
 
 </script>
 
